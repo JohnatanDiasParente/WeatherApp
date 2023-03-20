@@ -1,0 +1,12 @@
+:root{
+    --color-dark: rgb(14, 14, 14);
+    --color-dark2: rgb(32, 32, 32);
+    --color-dark3: rgb(22, 22, 22);
+    --color-white: #fff;
+    --color-green: rgb(103, 195, 80);
+    --color-green2: rgb(51, 149, 26);
+    --color-red: rgb(184, 40, 35);
+    --color-red2: rgb(146, 22, 17);
+    --color-purple: rgb(49, 2, 53);
+    --color-blue1: rgb(8, 107, 187);
+}
