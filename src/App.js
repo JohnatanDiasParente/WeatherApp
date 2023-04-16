@@ -28,7 +28,7 @@ function App() {
     <div className="">
       <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
         <a className="navbar-brand text-white" href="#top">
-          Previsão do tempo
+              Previsão do Tempo
         </a>
       </nav>
       <main className="container">
@@ -51,17 +51,26 @@ function App() {
             <div>
               <div className="mt-4 d-flex align-items-center">
                 <div>
-                  <img src={weatherForecast.current.condition.icon}/>
+                  <img src= {weatherForecast.current.condition.icon}/>
                 </div>
                 <div>
                   <h3>
-                    Hoje o dia esta:{weatherForecast.current.condition.text}
+                    Hoje o dia esta: {weatherForecast.current.condition.text}
                   </h3>
                   <p className="lead">
-                    Temp:{weatherForecast.current.temp_c}
+                    Temp: {weatherForecast.current.temp_c} ºC
                   </p>
                   <p className="lead">
-                    Umidade:{weatherForecast.current.humidity}%
+                    Umidade do ar: {weatherForecast.current.humidity}%
+                  </p>
+                  <p className="lead">
+                    Sensação térmica: {weatherForecast.current.feelslike_c} ºC
+                  </p>
+                  <p className="lead">
+                    País: {weatherForecast.location.country}
+                  </p>
+                  <p className="lead">
+                    Estado: {weatherForecast.location.region}
                   </p>
                 </div>
               </div>
